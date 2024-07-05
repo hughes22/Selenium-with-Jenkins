@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Your build steps go here
-                    echo 'Building...'
+                    bat "mvn clean compile"
                 }
             }
         }
