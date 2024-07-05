@@ -15,9 +15,9 @@ public class FormTest {
     public void beforeTest(){
         config = new ConfigManager();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--window-size=1920,1080");
+        //options.addArguments("--headless");
+        //options.addArguments("--disable-gpu");
+        //options.addArguments("--window-size=1920,1080");
         String baseURL = config.getProperty("baseURL1");
         driver = new ChromeDriver(options);
         driver.get(baseURL);
