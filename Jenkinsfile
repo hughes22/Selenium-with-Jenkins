@@ -33,13 +33,5 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
-            steps {
-                script {
-                    // Your deploy steps go here
-                    echo 'echo Deploying...'
-                }
-            }
-        }
     }
 }
