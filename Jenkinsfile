@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     // Your test steps go here
-                    bat "mvn -D clean test"
+                    bat "mvn verify"
                 }
             }
         }
